@@ -1,0 +1,73 @@
+@import '~mapbox-gl/dist/mapbox-gl.css';
+
+*{
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.map {
+  height: 100vh;
+  width: 100vw;
+}
+.marker {
+  background-size: contain;
+  min-width: 30px;
+  height: 20px;
+  border-radius: 3%;
+  cursor: default;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px 12px 3px;
+  margin: 0 auto;
+}
+
+.hero-body {
+ background-image: url('../assets/homepage.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+
+
+
+#github-icon {
+    background-image: url('../assets/github-logo.png');
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    margin: 10px 15px;
+
+}
+
+.navbar-end {
+  background-color: #3273dc;
+  a.navbar-item {
+    color: white;
+    &:hover {
+      // background-color: rgba(122, 121, 121, 0.55);
+    }
+  }
+}
+
+
+
+.container-custom {
+      // background-color: rgba(63, 123, 191);
+      margin-left: 0;
+      // display: inline-block;
+      // position: absolute;
+      // float:left;
+
+
+}
