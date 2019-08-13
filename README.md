@@ -1,1 +1,1 @@
-# sei-project-2
+# Digital Nomad Hub
