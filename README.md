@@ -1,15 +1,11 @@
-# SEI Project 2 - Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams.
+
+# SEI Project 2 - Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams
+Digital Nomad Hub was the second project during the General Assembly Software Engineering Immersive course (Week 5). The project was made in collaboration with Katarzyna https://github.com/kasiaaguti.
+
 See the website online at http://digital-nomad-ga.herokuapp.com/
-
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Reacathon
-See the website online at
-
-
+​
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
-​
-# Software Engineering Immersive: Project 2
-Digital Nomad Hub was the second project during the General Assembly Software Engineering Immersive course (Week 5). The project was made in collaboration with Katarzyna https://github.com/kasiaaguti
-​
+
 ### Timeframe & Team
 > 48h, pair programming
 
@@ -50,7 +46,7 @@ Most of our coding was done on one laptop, so we discussed each piece of code an
 The core idea was to used Webcamstravel API https://webcamstravel.p.rapidapi.com/ and render it on a map (for which we used Mapbox). Webcam API gave us access to public cameras from all over the world. We used geographic coordinates to show markers of the camera's locations on the map. After an user clicks a marker in desired location a popup appears showing more details. User can click on the camera image to see a live view from this particular camera in a new window.
 <img src="src/assets/Screenshot.png" width="900">
 
-## Challenges and Wins
+### Challenges and Wins
 Webcamstravel allows to access just fifty cameras at the same time. We decided at the first render to show 50 most popular cameras in the world. Then fifty most popular in the 200km radius from the place where a user clicks.
 
 ___
