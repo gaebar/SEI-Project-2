@@ -1,7 +1,6 @@
 
-# SEI Project 2 - Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams
-Digital Nomad Hub was the second project during the General Assembly Software Engineering Immersive course (Week 5). The project was made in collaboration with Katarzyna https://github.com/kasiaaguti.
-
+# SEI Project 2 - Digital Nomad Hub
+Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams.
 See the website online at http://digital-nomad-ga.herokuapp.com/
 ​
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
@@ -33,6 +32,8 @@ The website is deployed on Heroku and it can be found here: http://digital-nomad
 ___
 
 ## Website Summary
+Digital Nomad Hub was the second project during the General Assembly Software Engineering Immersive course (Week 5). The project was made in collaboration with Katarzyna https://github.com/kasiaaguti.
+
 We had to render an app that retrieves data from a public API in an interesting and engaging manner. We had just under 48 hours to achieve this goal, making it extremely time-sensitive. We chose to create a web app called Digital Nomad Hub, which allows users to retrieve a map of locations of potential destination for digitals nomads, using the Mapbox and Rapid webcams APIs.
 
 My part in the project included creating a Mapbox API integration, display the results on the map and general styling of the map.
