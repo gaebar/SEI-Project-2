@@ -1,69 +1,58 @@
-# Digital Nomad Hub
-See the website online at
+# SEI Project 2 - Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams.
+See the website online at http://digital-nomad-ga.herokuapp.com/
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Reacathon
 See the website online at
 
-## Overview
 
-We have **built a React application** that consumes a **public API**.
+![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
+​
+# Software Engineering Immersive: Project 2
+Digital Nomad Hub was the second project during the General Assembly Software Engineering Immersive course (Week 5). The project was made in collaboration with Katarzyna https://github.com/kasiaaguti
+​
+### Timeframe & Team
+> 48h, pair programming
 
-### Technical Requirements
+### The Brief
+Build a React application that consumes a public API.
+Have several components - At least one classical and one functional.
+The app should include a router - with several "pages".
+Have semantically clean HTML.
+Be deployed online and accessible to the public.
+Work in pairs.
+​
+### Technologies
+* React
+* Axios
+* Insomnia
+* Webpack
+* HTML5
+* CSS
+* Bulma
+* Teletype
+* Heroku
 
-* Consume a public API**
-* **Have several components** - At least one classical and one functional.
-* **The app can include a router** - with several "pages".
-* **Include wireframes** - that you designed before building the app.
-* Have **semantically clean HTML** - you make sure you write HTML that makes structural sense rather than thinking about how it might look, which is the job of CSS.
-* **Be deployed online** and accessible to the public. (We will cover how to do this next week, not required on first deadline)
+### Deployment
+The website is deployed on Heroku and it can be found here: http://digital-nomad-ga.herokuapp.com/
+___
 
----
+## Website Summary
+We had to render an app that retrieves data from a public API in an interesting and engaging manner. We had just under 48 hours to achieve this goal, making it extremely time-sensitive. We chose to create a web app called Digital Nomad Hub, which allows users to retrieve a map of locations of potential destination for digitals nomads, using the Mapbox and Rapid webcams APIs.
 
-## Necessary Deliverables
+My part in the project included creating a Mapbox API integration, display the results on the map and general styling of the map.
 
-* A **working application**, hosted somewhere on the internet
-* A **link to your hosted working app** in the URL section of your Github repo
-* A **git repository hosted on Github**, with a link to your hosted project, and frequent commits dating back to the _very beginning_ of the project
-* **A `readme.md` file** with:
-  * Explanations of the **technologies** used
-    * A couple of paragraphs about the **general approach you took**
-    * **Installation instructions** for any dependencies
-    * Link to your **wireframes** – sketches of major views / interfaces in your application
-   * Descriptions of any **unsolved problems** or **major hurdles** your team had to overcome
+___
+## Approach
+As this was a pair coded 'reactathon' with a very limited timeframe, we chose was to focus on functionality. For styling we used Bulma which was very helpful.
+Most of our coding was done on one laptop, so we discussed each piece of code and the best approaches. We also used the Teletype team coding tool.
 
----
+### Process
+The core idea was to used Webcamstravel API https://webcamstravel.p.rapidapi.com/ and render it on a map (for which we used Mapbox). Webcam API gave us access to public cameras from all over the world. We used geographic coordinates to show markers of the camera's locations on the map. After an user clicks a marker in desired location a popup appears showing more details. User can click on the camera image to see a live view from this particular camera in a new window.
+<img src="src/assets/Screenshot.png" width="900">
 
-## Suggested Ways to Get Started
+## Challenges and Wins
+Webcamstravel allows to access just fifty cameras at the same time. We decided at the first render to show 50 most popular cameras in the world. Then fifty most popular in the 200km radius from the place where a user clicks.
 
-* **Sign Off** Before starting you must get your project idea signed off by an Instructor/TA, sign off wil require a basic wireframe and working Insomnia request to your chosen API.
-* **Don’t hesitate to write throwaway code** to solve short term problems.
-* **Read the docs for whatever technologies / frameworks / APIs you use**.
-* **Write DRY code**.
-* **Be consistent with your code style.**
-* **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
-* **Keep user stories small and well-defined**, and remember – user stories focus on what a user needs, not what development tasks need accomplishing.
-* **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is?
-* **Make it all well-formatted.** Are you indenting, consistently? Can we find the start and end of every div, curly brace, etc?
-* **Comment your code.** Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it.
-* **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
-
----
-
-## Useful Resources
-
-* **[React](https://reactjs.org/)**
-*  **[Public APIs @ Programmable Web](https://www.programmableweb.com/)**
-
----
-
-## Project Feedback + Evaluation
-
-* __Project Workflow__: Did you complete the user stories, wireframes, task tracking as specified above? Did you use source control as expected for the phase of the program you’re in (detailed above)?
-
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you added a personal spin or creative element into your project submission? Did you deliver something of value to the end user (not just a login button and an index page)?
-
-* __Code Quality__: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code as your instructors as we have in class?
-
-* __Problem Solving__: Are you able to defend why you implemented your solution in a certain way? Can you demonstrated that you thought through alternative implementations? _(Note that this part of your feedback evaluation will take place during your one-on-one code review with your instructors, after you've completed the project.)_
+___
+ ## Future Improvements
+ - Replace the external Indeed website job search link with an API
