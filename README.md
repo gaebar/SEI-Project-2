@@ -93,3 +93,25 @@ ___
  ## Future Improvements
  - We might work more on user experience regarding popups and redirecting to webcams
  - Replace the external Indeed website job search link with an API
+
+___
+
+## Installation
+
+Install dependencies:
+
+`yarn install`
+
+### Run the app
+
+Compile the application code:
+
+`yarn buid`
+
+Starts the development server
+
+`yarn serve`
+
+## Deploy
+
+With heroku, automatically deploys from new code is pushed to `master`

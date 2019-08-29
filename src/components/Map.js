@@ -3,7 +3,6 @@ import mapboxgl from 'mapbox-gl'
 mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN
 console.log(process.env.MAPBOX_ACCESS_TOKEN)
 
-
 class Map extends React.Component {
   constructor() {
     super()
@@ -24,14 +23,10 @@ class Map extends React.Component {
       el.className = 'marker'
       el.style.backgroundImage = 'url(' + point.image.current.preview + ')'
 
-
-
       // create markers with HTML popoups
       // https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
       return new mapboxgl.Marker(el)
         .setLngLat({ lat: point.location.latitude, lng: point.location.longitude })
-
-
         .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
           .setHTML(`
             <div>
@@ -59,13 +54,10 @@ class Map extends React.Component {
       el.className = 'marker'
       el.style.backgroundImage = 'url(' + point.image.current.preview + ')'
 
-
       // create markers with HTML popoups
       // https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
       return new mapboxgl.Marker(el)
         .setLngLat({ lat: point.location.latitude, lng: point.location.longitude })
-
-
         .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
           .setHTML(`
             <div>

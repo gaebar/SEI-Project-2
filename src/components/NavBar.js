@@ -1,16 +1,13 @@
 import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
 
-
 class NavBar extends React.Component {
   constructor() {
     super()
 
     this.state = {}
     this.toggleNavbar = this.toggleNavbar.bind(this)
-
   }
-
 
   toggleNavbar() {
     console.log(this.props)
@@ -25,10 +22,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-
       <nav className="navbar is-link">
-
-
         <div className="navbar-brand">
           <Link to="/" className="navbar-item"><strong>Digital Nomads Hub</strong></Link>
           <a role="button" className={`navbar-burger ${this.state.navbarOpen ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" onClick={this.toggleNavbar}>
@@ -44,7 +38,6 @@ class NavBar extends React.Component {
             <a href="https://www.indeed.co.uk/Digital-jobs-in-Remote" target="_blank" rel="noopener noreferrer" className="navbar-item">Jobs</a>
             <a href="https://github.com/gaebar/digital-nomad-hub" id="github-icon" target="_blank"></a>
           </div>
-
         </div>
       </nav>
     )
