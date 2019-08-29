@@ -17,7 +17,7 @@ Have semantically clean HTML.
 Be deployed online and accessible to the public.
 Work in pairs.
 ​
-### Technologies
+### Tech Stack
 * React
 * Axios
 * Insomnia
@@ -40,7 +40,7 @@ We had to render an app that retrieves data from a public API in an interesting 
 My part in the project included creating a Mapbox API integration, display the results on the map and general styling of the map.
 
 ___
-## Approach
+### Approach
 As this was a pair coded 'reactathon' with a very limited timeframe, we chose was to focus on functionality. For styling we used Bulma which was very helpful.
 Most of our coding was done on one laptop, so we discussed each piece of code and the best approaches. We also used the Teletype team coding tool.
 
@@ -51,15 +51,15 @@ The core idea was to used Webcamstravel API https://webcamstravel.p.rapidapi.com
 
 **First render of a map**
 <br />
-<img src="src/assets/all.png" width="900">
+<img src="./screenshots/all.png" width="900">
 
 **More cameras for a clicked location**
 <br />
-<img src="src/assets/italy.png" width="900">
+<img src="./screenshots/italy.png" width="900">
 
 **Pop up on a clicked marker**
 <br />
-<img src="src/assets/Screenshot.png" width="900">
+<img src="./screenshots/pop-up.png" width="900">
 
 **Rendering first set of markers**
 ```
