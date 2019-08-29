@@ -2,7 +2,7 @@
 # SEI Project 2 - Digital Nomad Hub
 Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams.
 
-See the website online at http://digital-nomad-ga.herokuapp.com/ 
+See the website online at https://digital-nomad-hub.herokuapp.com/ 
 
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
 
@@ -29,7 +29,7 @@ Work in pairs.
 * Heroku
 
 ### Deployment
-The website is deployed on Heroku and it can be found here: http://digital-nomad-ga.herokuapp.com/
+The website is deployed on Heroku and it can be found here: https://digital-nomad-hub.herokuapp.com/
 ___
 
 ## Website Summary

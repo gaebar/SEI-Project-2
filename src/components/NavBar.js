@@ -24,7 +24,7 @@ class NavBar extends React.Component {
     return (
       <nav className="navbar is-link">
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item"><strong>Digital Nomads Hub</strong></Link>
+          <Link to="/" className="navbar-item"><strong>Digital Nomad Hub</strong></Link>
           <a role="button" className={`navbar-burger ${this.state.navbarOpen ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" onClick={this.toggleNavbar}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
