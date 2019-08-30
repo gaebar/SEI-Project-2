@@ -1,3 +1,4 @@
+[![Heroku](https://heroku-badge-gae.herokuapp.com/?app=digital-nomad-hub)](https://digital-nomad-hub.herokuapp.com/)
 
 # SEI Project 2 - Digital Nomad Hub
 Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams.
