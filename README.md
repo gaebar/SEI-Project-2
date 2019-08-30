@@ -71,7 +71,7 @@ The core idea was to used Webcamstravel API https://webcamstravel.p.rapidapi.com
 
 ### Rendering first set of markers
 
-```
+```javascript
 this.markers.forEach(marker => marker.remove())
 this.markers = this.props.markers.map(point => {
   // create custom popups one for each marker
@@ -79,8 +79,10 @@ this.markers = this.props.markers.map(point => {
   el.className = 'marker'
   el.style.backgroundImage = 'url(' + point.image.current.preview + ')'
 ```
+
 ### Accessing a set of webcams after user clicks on particular location
-```
+
+```javascript
 getWebcamList(lat, lng) {
   axios.get(`https://webcamstravel.p.rapidapi.com/webcams/list/nearby=${lat},${lng},250/limit=50?show=webcams:image,location,player`,
     { headers: {
@@ -95,15 +97,13 @@ getWebcamList(lat, lng) {
 }
 ```
 
-### Challenges and Wins
+## Challenges and Wins
 Webcamstravel allows to access just fifty cameras at the same time. We decided at the first render to show 50 most popular cameras in the world. Then fifty most popular in the 200km radius from the place where a user clicks.
 
 ### Key Learnings
 The Digital Nomad Hub was my first pair programming experience. It was a great way for me to realize how wonderful is to work in a group and share time, knowledge and idea. Kasia and I found interesting building this specific app and explore how to use APIs and using a CSS library like Bulma.
 
----
-
- ## Future Improvements
+ ### Future Improvements
  - We might work more on user experience regarding popups and redirecting to webcams
  - Replace the external Indeed website job search link with an API
 
