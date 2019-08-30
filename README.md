@@ -1,20 +1,21 @@
 [![Heroku](https://heroku-badge-gae.herokuapp.com/?app=digital-nomad-hub)](https://digital-nomad-hub.herokuapp.com/)
 
 # SEI Project 2 - Digital Nomad Hub
+
 Retrieves a map of locations of potential destination for digitals nomads using live streaming webcams.
 
-See the website online at https://digital-nomad-hub.herokuapp.com/ 
+**<a href="https://digital-nomad-hub.herokuapp.com/" target="_blank">Visit the Website</a>**
 
 ![General Assembly Logo](./screenshots/ga-logo.png)
 
-### Timeframe & Team
-> 48h, pair programming
+### Timeframe
+> 48h
 
-Our team
-- Gaetano: https://github.com/gaebar
-- Katarzyna : https://github.com/kasiaaguti
+### Team
+- Gaetano Barreca: https://github.com/gaebar
+- Kasia Wypychewicz: https://github.com/kasiaaguti
 
-### The Brief
+### Brief
 Build a React application that consumes a public API.
 Have several components - At least one classical and one functional.
 The app should include a router - with several "pages".
@@ -50,8 +51,7 @@ My part in the project included creating a Mapbox API integration, display the r
 
 ___
 ### Approach
-As this was a pair coded 'reactathon' with a very limited timeframe, we chose was to focus on functionality. For styling we used Bulma which was very helpful.
-Most of our coding was done on one laptop, so we discussed each piece of code and the best approaches. We also used the Teletype team coding tool.
+As this was a pair coded hackathon with a very limited timeframe, we chose was to focus on functionality. For styling we used Bulma which was very helpful. Most of our coding was done on one laptop, so we discussed each piece of code and the best approaches. We also used the Teletype team coding tool.
 
 ### Process
 The core idea was to used Webcamstravel API https://webcamstravel.p.rapidapi.com/ and render it on a map (for which we used Mapbox). Webcam API gave us access to public cameras from all over the world. We used geographic coordinates to show markers of the camera's locations on the map. After an user clicks a marker in desired location a popup appears showing more details. User can click on the camera image to see a live view from this particular camera in a new window.
@@ -117,10 +117,10 @@ Compile the application code:
 
 `yarn buid`
 
-Starts the development server
+Start the development server:
 
 `yarn serve`
 
 ## Deploy
 
-With heroku, automatically deploys from new code is pushed to `master`
+With heroku, automatically deploys when new code is pushed to `master`
