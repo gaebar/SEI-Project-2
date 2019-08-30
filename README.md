@@ -56,19 +56,21 @@ The core idea was to used Webcamstravel API https://webcamstravel.p.rapidapi.com
 
 ## Visuals
 
-**First render of a map**
-<br />
-<img src="./screenshots/all.png" width="900">
+### Home page
+![Home page](./screenshots/home-page.png)
 
-**More cameras for a clicked location**
-<br />
-<img src="./screenshots/italy.png" width="900">
+### First render of a map
 
-**Pop up on a clicked marker**
-<br />
-<img src="./screenshots/pop-up.png" width="900">
+![Map view](./screenshots/all.png)
 
-**Rendering first set of markers**
+### More cameras for a clicked location
+![Zoomed in map](./screenshots/italy.png)
+
+### Pop up on a clicked marker
+![Popup images](./screenshots/pop-up.png)
+
+### Rendering first set of markers
+
 ```
 this.markers.forEach(marker => marker.remove())
 this.markers = this.props.markers.map(point => {
@@ -77,7 +79,7 @@ this.markers = this.props.markers.map(point => {
   el.className = 'marker'
   el.style.backgroundImage = 'url(' + point.image.current.preview + ')'
 ```
-**Accessing a set of webcams after user clicks on particular location**
+### Accessing a set of webcams after user clicks on particular location
 ```
 getWebcamList(lat, lng) {
   axios.get(`https://webcamstravel.p.rapidapi.com/webcams/list/nearby=${lat},${lng},250/limit=50?show=webcams:image,location,player`,
@@ -96,12 +98,16 @@ getWebcamList(lat, lng) {
 ### Challenges and Wins
 Webcamstravel allows to access just fifty cameras at the same time. We decided at the first render to show 50 most popular cameras in the world. Then fifty most popular in the 200km radius from the place where a user clicks.
 
-___
+### Key Learnings
+The Digital Nomad Hub was my first pair programming experience. It was a great way for me to realize how wonderful is to work in a group and share time, knowledge and idea. Kasia and I found interesting building this specific app and explore how to use APIs and using a CSS library like Bulma.
+
+---
+
  ## Future Improvements
  - We might work more on user experience regarding popups and redirecting to webcams
  - Replace the external Indeed website job search link with an API
 
-___
+---
 
 ## Installation
 
@@ -119,6 +125,6 @@ Start the development server:
 
 `yarn serve`
 
-## Deploy
+## Deployment
 
 With heroku, automatically deploys when new code is pushed to `master`
