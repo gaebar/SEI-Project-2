@@ -38,8 +38,6 @@ Work in pairs.
 * Mapbox
 * Rapid webcams
 
-### Deployment
-The website is deployed on Heroku and it can be found here: https://digital-nomad-hub.herokuapp.com/
 ___
 
 ## Website Summary
