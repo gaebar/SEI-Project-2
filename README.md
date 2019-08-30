@@ -9,6 +9,10 @@ See the website online at https://digital-nomad-hub.herokuapp.com/
 ### Timeframe & Team
 > 48h, pair programming
 
+Our team
+- Gaetano: https://github.com/gaebar
+- Katarzyna : https://github.com/kasiaaguti
+
 ### The Brief
 Build a React application that consumes a public API.
 Have several components - At least one classical and one functional.
@@ -28,12 +32,16 @@ Work in pairs.
 * Teletype
 * Heroku
 
+### APIs
+* Mapbox
+* Rapid webcams
+
 ### Deployment
 The website is deployed on Heroku and it can be found here: https://digital-nomad-hub.herokuapp.com/
 ___
 
 ## Website Summary
-Digital Nomad Hub was the second project during the General Assembly Software Engineering Immersive course (Week 5). The project was made in collaboration with Katarzyna https://github.com/kasiaaguti.
+Digital Nomad Hub was the second project during the General Assembly Software Engineering Immersive course (Week 5). The project was made in collaboration with Katarzyna.
 
 We had to render an app that retrieves data from a public API in an interesting and engaging manner. We had just under 48 hours to achieve this goal, making it extremely time-sensitive. We chose to create a web app called Digital Nomad Hub, which allows users to retrieve a map of locations of potential destination for digitals nomads, using the Mapbox and Rapid webcams APIs.
 
