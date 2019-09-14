@@ -7,8 +7,18 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+main.is-fullheight-with-navbar {
+    height: calc(100vh - 3.5rem);
+    overflow: hidden;
+}
+
+section.screen {
+  height: 100%;
+}
+
 .map {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 .marker {

@@ -23,7 +23,7 @@ class Map extends React.Component {
       el.className = 'marker'
       el.style.backgroundImage = 'url(' + point.image.current.preview + ')'
 
-      // create markers with HTML popoups
+      // create markers with HTML popups
       // https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
       return new mapboxgl.Marker(el)
         .setLngLat({ lat: point.location.latitude, lng: point.location.longitude })
@@ -54,7 +54,7 @@ class Map extends React.Component {
       el.className = 'marker'
       el.style.backgroundImage = 'url(' + point.image.current.preview + ')'
 
-      // create markers with HTML popoups
+      // create markers with HTML popups
       // https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
       return new mapboxgl.Marker(el)
         .setLngLat({ lat: point.location.latitude, lng: point.location.longitude })
@@ -75,7 +75,7 @@ class Map extends React.Component {
 
   render() {
     return (
-      <main>
+      <main className="is-fullheight-with-navbar">
         <section className="screen">
           <div className="map" ref={el => this.mapDiv = el} />
         </section>
@@ -84,6 +84,3 @@ class Map extends React.Component {
   }
 }
 export default Map
-
-// <h4><a href="${point.player.day.link}"</a></h4>
-// <img src=${point.image.current.preview} />
