@@ -76,11 +76,10 @@ class Map extends React.Component {
   render() {
     return (
       <main>
-        <section className="scren">  <a id="github-icon" target="_blank" href="https://github.com/gaebar/digital-nomad-hub"></a></section>
-        <div className="map" ref={el => this.mapDiv = el} />
-
+        <section className="screen">
+          <div className="map" ref={el => this.mapDiv = el} />
+        </section>
       </main>
-
     )
   }
 }

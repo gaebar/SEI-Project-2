@@ -34,6 +34,14 @@ html, body {
  background-image: url('../images/homepage.jpg');
  background-repeat: no-repeat;
  background-size: cover;
+
+}
+
+.hero-body p {
+  color: #b04e1f;
+   span {
+     display: block;
+   }
 }
 
 #github-icon {
@@ -57,4 +65,7 @@ html, body {
 
 .container-custom {
   margin-left: 0;
+  background-color: #ffffffa8;
+  padding: 12px;
+  border-radius: 5px;
 }

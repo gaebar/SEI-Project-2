@@ -63,13 +63,11 @@ class Main extends React.Component {
   render() {
     if (!this.state.points) return null
     return (
-      <main>
-        <Map
-          markers={this.state.points}
-          onClick={this.handleClick}
-          center={this.mapCenter}
-        />
-      </main>
+      <Map
+        markers={this.state.points}
+        onClick={this.handleClick}
+        center={this.mapCenter}
+      />
     )
   }
 }
