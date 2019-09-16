@@ -21,7 +21,7 @@ class Main extends React.Component {
 
   // gst the list of countries using the restcountries API and select the name, flat and latlng.
   getFirstWebcamList() {
-    axios.get('https://webcamstravel.p.rapidapi.com/webcams/list/orderby=popularity,desc/limit=50?show=webcams:image,location,player',
+    axios.get('https://webcamstravel.p.rapidapi.com/webcams/list/orderby=popularity,desc/limit=200?show=webcams:image,location,player',
       {
         headers: {
           'X-RapidAPI-H': 'webcamstravel.p.rapidapi.com',
